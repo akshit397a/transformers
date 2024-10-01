@@ -54,9 +54,9 @@ With this in mind, let's go a bit deeper into the general library design.
 
 To successfully add a model, it is important to understand the interaction between your model and its config,
 [`PreTrainedModel`], and [`PretrainedConfig`]. For exemplary purposes, we will
-call the model to be added to 🤗 Transformers `BrandNewBert`.
+call the model to be added to 🤗 Transformers `BrandNewBert`
 
-Let's take a look:
+Let's take a look on this code:
 
 <img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers_overview.png"/>
 
